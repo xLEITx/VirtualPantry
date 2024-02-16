@@ -1,4 +1,4 @@
-package com.leit.virtualpantry
+package com.leit.virtualpantry.feature_pantry.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
