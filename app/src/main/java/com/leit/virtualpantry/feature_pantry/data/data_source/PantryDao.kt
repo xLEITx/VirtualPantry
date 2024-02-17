@@ -36,5 +36,5 @@ interface PantryDao {
     suspend fun deleteItem(item: Item)
 
     @Query("DELETE FROM item WHERE shelfId=:shelfId")
-    suspend fun deleteAllItemsByShelf(shelfId: Int)
+    suspend fun deleteAllItemsByShelfId(shelfId: Int)
 }
