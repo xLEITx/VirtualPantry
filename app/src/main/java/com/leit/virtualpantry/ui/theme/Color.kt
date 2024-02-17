@@ -1,4 +1,4 @@
-package com.example.compose
+package com.leit.virtualpantry.ui.theme
 import androidx.compose.ui.graphics.Color
 
 val md_theme_light_primary = Color(0xFF00696A)
@@ -63,5 +63,10 @@ val md_theme_dark_surfaceTint = Color(0xFF4CDADB)
 val md_theme_dark_outlineVariant = Color(0xFF3F4948)
 val md_theme_dark_scrim = Color(0xFF000000)
 
+val RedOrange = Color(0xffffab91)
+val RedPink = Color(0xfff48fb1)
+val BabyBlue = Color(0xff81deea)
+val Violet = Color(0xffcf94da)
+val LightGreen = Color(0xffe7ed9b)
 
 val seed = Color(0xFF006A6B)
