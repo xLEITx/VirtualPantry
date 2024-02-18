@@ -13,4 +13,8 @@ import com.leit.virtualpantry.feature_pantry.domain.model.Shelf
 abstract class PantryDatabase:RoomDatabase() {
     abstract val pantryDao:PantryDao
 
+    companion object{
+        const val DATABASE_NAME = "pantry_db"
+    }
+
 }
